@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "code": "igbo",
+    "name": "Igbo",
+    "nativeName": "Asụsụ Igbo",
+    "direction": "ltr"
+  },
+  "app": {
+    "title": "NaijaTriageHub",
+    "tagline": "Lelee Ahụ Gị N'enweghị Ịntanetị",
+    "selectLanguage": "Họrọ Asụsụ"
+  },
+  "nav": {
+    "triage": "Nyocha Mgbaàmà",
+    "firstAid": "Enyemaka Mbụ",
+    "home": "Ụlọ"
+  },
+  "triage": {
+    "start": "Malite Nyocha Mgbaàmà",
+    "chooseIllness": "Họrọ Ọrịa Na-echegbu Gị",
+    "malaria": {
+      "label": "Ịba (Ọrịa Aṅụmantị)",
+      "questions": [
+        { "id": "fever", "text": "Ị nwere ahụ ọkụ ugbu a?" },
+        { "id": "chills", "text": "Ahụ gị ọ na-ajụ oyi na ị na-ama jijiji?" },
+        { "id": "headache", "text": "Isi ọ na-awụ gị ike nke ukwuu?" },
+        { "id": "vomiting", "text": "Ị na-agbọ?" },
+        { "id": "confusion", "text": "Ị na-enwe mgbagwoju anya ma ọ bụ ị enweghị ike iche echiche nke ọma?" }
+      ]
+    },
+    "dehydration": {
+      "label": "Afọ Ọsịsa / Mmiri Kọrọ Ahụ",
+      "questions": [
+        { "id": "diarrhea", "text": "Ị na-agba afọ ọsịsa karịa ugboro atọ n'ụbọchị?" },
+        { "id": "thirst", "text": "Akpịrị ọ na-akpọ gị nkụ nke ukwuu?" },
+        { "id": "dryMouth", "text": "Ọnụ gị ọ akọwo?" },
+        { "id": "sunkenEyes", "text": "Anya gị abanyewo n'ime?" },
+        { "id": "noUrine", "text": "Ị amaghị mmiri ruo elekere isii ma ọ bụ karịa?" }
+      ]
+    },
+    "results": {
+      "emergency": {
+        "label": "Ihe Mberede",
+        "advice": "Gaa ụlọ ọgwụ UGBUA. Ọnọdụ a chọrọ nlekọta ahụike ngwa ngwa."
+      },
+      "moderate": {
+        "label": "Etiti",
+        "advice": "Gaa nlekọta ahụike n'oge na-adịghị anya. Nyochaa mgbaàmà ndị a nke ọma."
+      },
+      "low": {
+        "label": "Dị Nta",
+        "advice": "Gaa n'ihu na-elekọta ahụ gị n'ụlọ. Ṅụọ mmiri buru ibu ma zuru ike."
+      }
+    }
+  },
+  "firstAid": {
+    "cpr": {
+      "title": "CPR (Enyemaka Iku Ume)",
+      "steps": [
+        "Gosi na ebe ahụ dị nchekwa, mgbe ahụ lelee ma onye ahụ na-aza aza.",
+        "Kpọọ enyemaka ozugbo ma ọ bụ gwa onye ọzọ ka ọ kpọọ ụlọ ọgwụ.",
+        "Tọgbọ onye ahụ azụ ya n'elu ebe siri ike.",
+        "Kwapụta n'etiti obi ugboro 100-120 n'otu nkeji, dị ka centimita 5-6 omimi.",
+        "Gaa n'ihu ruo mgbe enyemaka bịara ma ọ bụ onye ahụ tetara."
+      ]
+    },
+    "snakeBite": {
+      "title": "Agwọ Tara Ahụ",
+      "steps": [
+        "Mee ka onye ahụ nọrọ jụụ ma ghara ịkwaga, iji belata ka nsi ahụ gbasaa.",
+        "Wepụ ihe ọ bụla mkpanaka dị nso n'ebe a tara ya dịka mgbaka.",
+        "Kee akwa na-adịghị eke eke n'elu ebe a tara ya, ekesie ya ike.",
+        "Ebipụla ọnya ahụ ma ọ bụ nwaa ịmịkpu nsi ahụ.",
+        "Buru ozugbo gaa ụlọ ọgwụ."
+      ]
+    },
+    "choking": {
+      "title": "Ihe Mikpuru N'akpịrị",
+      "steps": [
+        "Jụọ onye ahụ ma ọ nwere ike ikwu okwu ma ọ bụ ụkwara.",
+        "Ọ bụrụ na o nweghị ike iku ume, kụọ azụ ya ugboro ise n'etiti ubu ya abụọ.",
+        "Ọ bụrụ na ọ dịghị apụta, mee mkpali afọ (Heimlich) ugboro ise.",
+        "Megharịa ruo mgbe ihe ahụ pụtara ma ọ bụ enyemaka bịara."
+      ]
+    },
+    "burns": {
+      "title": "Ọkụ Rere Ahụ Nke Ukwuu",
+      "steps": [
+        "Wepụ onye ahụ n'ọkụ ma ọ bụ ebe ọkụ dị ozugbo.",
+        "Wụsa mmiri oyi n'ebe ọkụ rere ya opekata mpe nkeji iri.",
+        "Ejila ude ma ọ bụ mmanụ tee ebe ọkụ rere ya.",
+        "Jiri akwa dị ọcha, dị nro kpuchie ya.",
+        "Gaa ụlọ ọgwụ ma ọ bụrụ na ọkụ rere ya buru ibu ma ọ bụ miri emi."
+      ]
+    }
+  }
+}

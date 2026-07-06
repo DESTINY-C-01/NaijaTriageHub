@@ -1,0 +1,10 @@
+{
+  "name": "NaijaTriageHub",
+  "short_name": "TriageHub",
+  "description": "Offline symptom triage and first-aid guide for Nigeria in 250+ local languages.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f7a3d",
+  "icons": []
+}

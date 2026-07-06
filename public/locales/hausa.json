@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "code": "hausa",
+    "name": "Hausa",
+    "nativeName": "Harshen Hausa",
+    "direction": "ltr"
+  },
+  "app": {
+    "title": "NaijaTriageHub",
+    "tagline": "Duba Lafiyarka Ba Intanet",
+    "selectLanguage": "Zaɓi Harshe"
+  },
+  "nav": {
+    "triage": "Duba Alamu",
+    "firstAid": "Taimakon Farko",
+    "home": "Gida"
+  },
+  "triage": {
+    "start": "Fara Duba Alamu",
+    "chooseIllness": "Zaɓi Irin Rashin Lafiya",
+    "malaria": {
+      "label": "Zazzabin Cizon Sauro",
+      "questions": [
+        { "id": "fever", "text": "Kana da zazzabi?" },
+        { "id": "chills", "text": "Kana jin sanyi da rawan jiki?" },
+        { "id": "headache", "text": "Kana da ciwon kai mai tsanani?" },
+        { "id": "vomiting", "text": "Kana amai?" },
+        { "id": "confusion", "text": "Kana jin rudani ko ba ka iya tunani sosai?" }
+      ]
+    },
+    "dehydration": {
+      "label": "Gudawa/Rashin Ruwa a Jiki",
+      "questions": [
+        { "id": "diarrhea", "text": "Kana gudawa fiye da sau 3 a rana?" },
+        { "id": "thirst", "text": "Kishirwa tana damun ka sosai?" },
+        { "id": "dryMouth", "text": "Bakinka ya bushe?" },
+        { "id": "sunkenEyes", "text": "Idanunka sun nutse?" },
+        { "id": "noUrine", "text": "Ba ka fitsari na sa'o'i 6 ko fiye?" }
+      ]
+    },
+    "results": {
+      "emergency": {
+        "label": "Gaggawa",
+        "advice": "Je asibiti YANZU. Wannan yanayi na bukatar kulawar likita cikin gaggawa."
+      },
+      "moderate": {
+        "label": "Matsakaici",
+        "advice": "Ziyarci cibiyar lafiya da wuri-wuri. A kula da alamun."
+      },
+      "low": {
+        "label": "Karama",
+        "advice": "Ci gaba da lura da lafiyarka a gida. Sha ruwa mai yawa kuma huta."
+      }
+    }
+  },
+  "firstAid": {
+    "cpr": {
+      "title": "CPR (Rai da Numfashi)",
+      "steps": [
+        "Tabbatar wurin yana da aminci sannan ka duba ko mutumin yana amsawa.",
+        "Kira taimako nan take ko a kira asibiti.",
+        "Kwantar da mutumin a bayansa a wuri mai tauri.",
+        "Danna tsakiyar kirji sau 100-120 a minti daya, zurfin santimita 5-6.",
+        "Ci gaba har sai taimako ya zo ko mutumin ya farfado."
+      ]
+    },
+    "snakeBite": {
+      "title": "Cizon Maciji",
+      "steps": [
+        "A kwantar da mutumin, kada ya yi motsi don rage yaduwar guba.",
+        "Cire duk wani abu mai matsi kusa da wurin cizon kamar zobe.",
+        "A daure sama da wurin cizon a hankali, kada a matse sosai.",
+        "Kada a yanka ko a tsotse wurin cizon.",
+        "A kai asibiti da gaggawa."
+      ]
+    },
+    "choking": {
+      "title": "Makurewa",
+      "steps": [
+        "A tambayi mutumin ko yana iya magana ko tari.",
+        "Idan ba ya iya numfashi, a bugi bayansa sau 5 tsakanin kafaɗu.",
+        "Idan bai fita ba, a yi matsin ciki (Heimlich) sau 5.",
+        "A maimaita har sai abin ya fito ko taimako ya zo."
+      ]
+    },
+    "burns": {
+      "title": "Konewa Mai Tsanani",
+      "steps": [
+        "A kwantar da wutar ko tushen zafi daga jiki nan take.",
+        "A zuba ruwan sanyi a kan wurin da ya kone na akalla minti 10.",
+        "Kada a shafa man kirim ko man goro a wurin da ya kone.",
+        "A rufe wurin da tsaftataccen zane mai laushi.",
+        "A kai asibiti idan konewar ta yi girma ko ta yi zurfi."
+      ]
+    }
+  }
+}

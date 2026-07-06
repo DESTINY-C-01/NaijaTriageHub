@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "code": "yoruba",
+    "name": "Yoruba",
+    "nativeName": "Èdè Yorùbá",
+    "direction": "ltr"
+  },
+  "app": {
+    "title": "NaijaTriageHub",
+    "tagline": "Ṣàyẹ̀wò Ara Rẹ Láìsí Íńtánẹ́ẹ̀tì",
+    "selectLanguage": "Yan Èdè"
+  },
+  "nav": {
+    "triage": "Ṣàyẹ̀wò Àmì Àrùn",
+    "firstAid": "Ìrànlọ́wọ́ Àkọ́kọ́",
+    "home": "Ilé"
+  },
+  "triage": {
+    "start": "Bẹ̀rẹ̀ Ṣíṣàyẹ̀wò Àmì Àrùn",
+    "chooseIllness": "Yan Àrùn Tó Ń Yọ Ọ́ Lẹ́nu",
+    "malaria": {
+      "label": "Ibà (Àrùn Ẹ̀fọn)",
+      "questions": [
+        { "id": "fever", "text": "Ṣé o ní ibà báyìí?" },
+        { "id": "chills", "text": "Ṣé ara rẹ ń gbọ̀n pẹ̀lú òtútù?" },
+        { "id": "headache", "text": "Ṣé orí ń fọ ọ́ gan-an?" },
+        { "id": "vomiting", "text": "Ṣé o ń bì?" },
+        { "id": "confusion", "text": "Ṣé o ń dàrú tàbí o ò lè ronú dáadáa?" }
+      ]
+    },
+    "dehydration": {
+      "label": "Ìgbẹ́gbuuru / Àìní Omi Ara",
+      "questions": [
+        { "id": "diarrhea", "text": "Ṣé o ti yọ ìgbẹ́ ju ìgbà mẹ́ta lọ lónìí?" },
+        { "id": "thirst", "text": "Ṣé òùngbẹ ń gbẹ ọ́ gidigidi?" },
+        { "id": "dryMouth", "text": "Ṣé ẹnu rẹ gbẹ?" },
+        { "id": "sunkenEyes", "text": "Ṣé ojú rẹ ti hò sínú?" },
+        { "id": "noUrine", "text": "Ṣé o ò tíì tọ̀ fún wákàtí mẹ́fà tàbí jù bẹ́ẹ̀ lọ?" }
+      ]
+    },
+    "results": {
+      "emergency": {
+        "label": "Pàjáwìrì",
+        "advice": "Lọ sí ilé ìwòsàn NÍSÌN-ÍNSÌN. Ipò yìí nílò ìtọ́jú kánkán."
+      },
+      "moderate": {
+        "label": "Àárín",
+        "advice": "Lọ sí ilé ìwòsàn láìpẹ́. Máa ṣàkíyèsí àwọn àmì náà dáadáa."
+      },
+      "low": {
+        "label": "Kékeré",
+        "advice": "Máa bójú tó ara rẹ ní ilé. Mu omi púpọ̀ kí o sì sinmi."
+      }
+    }
+  },
+  "firstAid": {
+    "cpr": {
+      "title": "CPR (Ìrànlọ́wọ́ Èémí)",
+      "steps": [
+        "Rí i dájú pé ibi náà ní àìléwu, lẹ́yìn náà ṣàyẹ̀wò bóyá ẹni náà ń dáhùn.",
+        "Pe ìrànlọ́wọ́ lẹ́sẹ̀kẹsẹ̀ tàbí kí ẹnì kan pe ilé ìwòsàn.",
+        "Fi ẹni náà dùbúlẹ̀ sí orí ẹ̀yìn rẹ̀ lórí ilẹ̀ líle.",
+        "Fọwọ́ rọ àárín àyà ní ìgbà 100-120 nínú ìṣẹ́jú kan, jìn tó 5-6 centimeters.",
+        "Máa bá a nìṣó títí tí ìrànlọ́wọ́ yóò fi dé tàbí ẹni náà yóò fi jí."
+      ]
+    },
+    "snakeBite": {
+      "title": "Jíjẹ Ejò",
+      "steps": [
+        "Jẹ́ kí ẹni náà dúró jẹ́ẹ́ láìṣí gbígbé, kí oró náà má bàa tàn kánkán.",
+        "Yọ ohunkóhun tó ń fúnpọ̀ nítòsí ibi tí ejò ti bù ú, bí i òrùka.",
+        "Fi aṣọ dì mọ́ orí ibi tí ejò ti bù, má ṣe dì í le jù.",
+        "Má gé ọgbẹ́ náà tàbí gbìyànjú láti fà oró náà jáde pẹ̀lú ẹnu.",
+        "Kánjú lọ sí ilé ìwòsàn."
+      ]
+    },
+    "choking": {
+      "title": "Ìfun Ọ̀fun",
+      "steps": [
+        "Béèrè lọ́wọ́ ẹni náà bóyá ó lè sọ̀rọ̀ tàbí ikọ́.",
+        "Tí kò bá lè mí, gbá ẹ̀yìn rẹ̀ ní ìgbà márùn-ún láàrín àwọn èjìka rẹ̀.",
+        "Tí kò bá jáde, ṣe ìfúnpọ̀ inú (Heimlich) ní ìgbà márùn-ún.",
+        "Tún un ṣe títí ohun náà yóò fi jáde tàbí ìrànlọ́wọ́ yóò fi dé."
+      ]
+    },
+    "burns": {
+      "title": "Ìjóná Ara Tó Le Gidigidi",
+      "steps": [
+        "Yọ ẹni náà kúrò nínú iná tàbí orísun ooru lẹ́sẹ̀kẹsẹ̀.",
+        "Da omi tútù sí orí ibi tí ó jó fún ìṣẹ́jú mẹ́wàá ó kéré.",
+        "Má fi ọ̀rá tàbí òróró kùn ibi tí ó jó.",
+        "Fi aṣọ mímọ́, rírọ̀ bò ó.",
+        "Lọ sí ilé ìwòsàn tí ìjóná náà bá tóbi tàbí jìn."
+      ]
+    }
+  }
+}
